@@ -5,12 +5,15 @@ The intended application of this project is to create a 64bit linker to python f
 
 Example import in mql5:
 
+```
 #import "[Path to PythonDll.dll"
    long CallPython(double &a[][11], int array_rows, int array_cols, string &FileName, string &FuncName, int &args[]);
 #import
+```
 
 Example call in mql5:
 
+```
 void CallPython()
   {
    Print("Writing data to file...");
@@ -23,8 +26,11 @@ void CallPython()
    
    return(INIT_SUCCEEDED);
   }
+```
 
 Example python function:
+
+```python
 def WriteData(matrix, args):
     DataFileName = 'AllData.csv'
     file = open(DataFileName, 'w')
@@ -34,3 +40,4 @@ def WriteData(matrix, args):
     
     file.close()
     return 1;
+```
