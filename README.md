@@ -1,5 +1,5 @@
 # PythonDll
-A DLL wrapper for Python 3. programmed in C++ (Visual Studio) - intended for use in MT5 (MQL5)
+A DLL wrapper for Python 3.6 programmed in C++ (Visual Studio) - intended for use in MT5 (MQL5)
 
 The intended application of this project is to create a 64bit linker to python for use in metatrader 5 (mql5). 
 
